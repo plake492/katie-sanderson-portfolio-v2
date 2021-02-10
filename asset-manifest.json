@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/katie-sanderson-portfolio-v2/static/css/main.1a3565f9.chunk.css",
-    "main.js": "/katie-sanderson-portfolio-v2/static/js/main.a9f1ff87.chunk.js",
-    "main.js.map": "/katie-sanderson-portfolio-v2/static/js/main.a9f1ff87.chunk.js.map",
+    "main.js": "/katie-sanderson-portfolio-v2/static/js/main.07b8b179.chunk.js",
+    "main.js.map": "/katie-sanderson-portfolio-v2/static/js/main.07b8b179.chunk.js.map",
     "runtime-main.js": "/katie-sanderson-portfolio-v2/static/js/runtime-main.dc874e96.js",
     "runtime-main.js.map": "/katie-sanderson-portfolio-v2/static/js/runtime-main.dc874e96.js.map",
     "static/js/2.4d3c7af6.chunk.js": "/katie-sanderson-portfolio-v2/static/js/2.4d3c7af6.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.dc874e96.js",
     "static/js/2.4d3c7af6.chunk.js",
     "static/css/main.1a3565f9.chunk.css",
-    "static/js/main.a9f1ff87.chunk.js"
+    "static/js/main.07b8b179.chunk.js"
   ]
 }
