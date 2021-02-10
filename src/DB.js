@@ -136,7 +136,7 @@ export const featuredWork = [
       'https://www.ukfilmreview.co.uk/post/american-waste-short-film-review'
     ],
     trailer: 'https://www.youtube.com/embed/5dCKwsHr8J8',
-    BTS: 'https://www.youtube.com/watch?v=WHwUCBhXjp0'
+    BTS: 'https://www.youtube.com/embed/WHwUCBhXjp0'
   },
   {
     title: 'SHE FOLLOWS CLOSE BEHIND',
@@ -165,32 +165,32 @@ export const featuredWork = [
     description: 'In the southern United States, two young women meet by chance in the back of a police car and, without saying a word, experience the injustice hovering above them.',
     IMDb: 'https://m.imdb.com/title/tt10045714/?ref_=m_nm_knf_prd_i4',
     website: 'https://www.lightsonfilm.com/interstateeight.html',
-    festivals: `Warsaw Film Festival 2019, Poland - World Premiere​
-    Filmets Badalona Film Festival 2019, Spain
-    Interfilm - International Short Film Festival Berlin 2019, Germany
-    Minimalen Short Film Festival 2020, Norway
-    Festival À l'Est 2020, France
-    Bunter Hund - International Short Film Festival Munich 2020, Germany
-    Kinofilm - Manchester International Short Film & Animation Festival 2020, UK
-    RiverRun International Film Festival 2020, USA
-    deadCenter Film Festival 2020, USA
-    Still Voices Short Film Festival 2020, Ireland
-    Islantilla Cinefórum 2020, Spain
-    ​Omladinski Film Festival Sarajevo 2020, Bosnia and Herzegovina
-    Next Generation Short Tiger - German Films 2020
-    Motovun Film Festival 2020, Croatia
-    ​FEST - New Directors/New Films Festival 2020, Portugal
-    First Steps Award 2020, Germany - Award Winner
-    Gozo Film Festival 2020, Malta
-    Anonimul International Independent Film Festival 2020, Romania
-    Kino Otok – Isola Cinema International Film Festival 2020, Slovenia
-    Five Lakes Film Festival 2020, Germany
-    Zlín Film Festival 2020, Czech Republic
-    Filmfest Dresden 2020, Germany
-    Minikino Film Week 2020, Indonesia
-    Elba Film Festival 2020, Italy - Best Director Award
-    BEYOND: The Cary Film Festival 2020, USA
-    Adriatic Film Festival 2020, Italy - ShortSchool`,
+    // festivals: `Warsaw Film Festival 2019, Poland - World Premiere
+    // Filmets Badalona Film Festival 2019, Spain
+    // Interfilm - International Short Film Festival Berlin 2019, Germany
+    // Minimalen Short Film Festival 2020, Norway
+    // Festival À l'Est 2020, France
+    // Bunter Hund - International Short Film Festival Munich 2020, Germany
+    // Kinofilm - Manchester International Short Film & Animation Festival 2020, UK
+    // RiverRun International Film Festival 2020, USA
+    // deadCenter Film Festival 2020, USA
+    // Still Voices Short Film Festival 2020, Ireland
+    // Islantilla Cinefórum 2020, Spain
+    // ​Omladinski Film Festival Sarajevo 2020, Bosnia and Herzegovina
+    // Next Generation Short Tiger - German Films 2020
+    // Motovun Film Festival 2020, Croatia
+    // ​FEST - New Directors/New Films Festival 2020, Portugal
+    // First Steps Award 2020, Germany - Award Winner
+    // Gozo Film Festival 2020, Malta
+    // Anonimul International Independent Film Festival 2020, Romania
+    // Kino Otok – Isola Cinema International Film Festival 2020, Slovenia
+    // Five Lakes Film Festival 2020, Germany
+    // Zlín Film Festival 2020, Czech Republic
+    // Filmfest Dresden 2020, Germany
+    // Minikino Film Week 2020, Indonesia
+    // Elba Film Festival 2020, Italy - Best Director Award
+    // BEYOND: The Cary Film Festival 2020, USA
+    // Adriatic Film Festival 2020, Italy - ShortSchool`,
     trailer: 'https://www.youtube.com/embed/F8NlMXg2Rdw'
   }
 ]

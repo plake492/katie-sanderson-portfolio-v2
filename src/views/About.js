@@ -3,7 +3,7 @@ import { experiance } from '../DB'
 
 export default function About () {
   return (
-    <div className='mx-1'>
+    <div className='mx-4'>
       <h2 className='font-weight-bolder text-center margin_lg'>FILM PRODUCER \\ FIRST ASSISTANT DIRECTOR</h2>
       <div className='row mt-5'>
         <div class='col-lg-7'>
@@ -18,9 +18,9 @@ export default function About () {
           </article>
         </div>
       </div>
-      <section className='row p-2 mt-4 '>
+      <section className='row p-2 mt-'>
         {experiance.map((item, i) => (
-          <div key={i} className='col-12 p-2 pl-3 my-2 border-top job_card'>
+          <div key={i} className='col-12 p-2 pl-3 my-2 border-top  job_card'>
             <header className='mb-3'>{item.title}<span className='ml-4'>{item.jobType}</span></header>
             <p>{item.role}</p>
             <p>{item.description}</p>
@@ -29,7 +29,6 @@ export default function About () {
 
         ))}
       </section>
-
     </div>
   )
 }

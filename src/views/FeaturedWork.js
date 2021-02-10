@@ -22,6 +22,16 @@ export default function Posters () {
               </div>
             ))}
           </div>
+          <div className='d-none d-lg-block'>
+            <div className='row no-gutters alt_posters'>
+              {featuredWork.map((film, i) => (
+                <div key={i} className='col-lg-2 col-sm-4 poster p-1 p-md-0'>
+                  <img width='100%' height='100%' src={`https://katie-sanderson-portfolio.s3.amazonaws.com/posters/${film.img}`} />
+                  <Link onClick={() => selectFilm(film)} to={`Featured-work/${film.ref}`} />
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </Route>
       <Route path='/Featured-work/:film'>

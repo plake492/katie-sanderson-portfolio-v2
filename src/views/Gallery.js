@@ -27,9 +27,9 @@ export default function Gallery () {
 
   return (
     <div className='mt-5'>
-      <div className='d-flex ml-2 mb-4 justify-content-center  pt-3'>
+      <div className='d-flex mb-4 justify-content-center pt-3'>
         {galleryTabs.map(({ ref, title }, i) => (
-          <div key={i} className='mr-4' onClick={() => setDisplay(ref)}>
+          <div key={i} className={i === 0 && 'mr-4'} onClick={() => setDisplay(ref)}>
             <a className={`h5 font-weight-bold ${display === ref ? 'gallery_active' : null}`}>{title}</a>
           </div>
         ))}

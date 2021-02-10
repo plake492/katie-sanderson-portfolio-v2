@@ -5,6 +5,7 @@ export default function Nav () {
   const routes = [
     { name: 'About', route: '/' },
     { name: 'Featured Work', route: '/Featured-work' },
+    { name: 'Upcoming Work', route: '/Upcoming-work' },
     { name: 'Gallery', route: '/Gallery' },
     { name: 'Contact', route: '/Contact' }
   ]
