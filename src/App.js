@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+import { HashRouter, BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import Nav from './componenets/Nav'
 import About from './views/About'
 import FeaturedWork from './views/FeaturedWork'
@@ -10,7 +10,7 @@ import './App.css'
 
 function App () {
   return (
-    <Router>
+    <HashRouter>
       <Nav />
       <div style={{ paddingBottom: '10rem' }}>
         <Switch>
@@ -22,9 +22,8 @@ function App () {
           <Redirect from='*' to='/' />
         </Switch>
       </div>
-
       <Footer />
-    </Router>
+    </HashRouter>
   )
 }
 
