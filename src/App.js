@@ -10,7 +10,7 @@ import './App.css'
 
 function App () {
   return (
-    <HashRouter>
+    <HashRouter basename='/'>
       <Nav />
       <div style={{ paddingBottom: '10rem' }}>
         <Switch>
